@@ -1,0 +1,97 @@
+/* Importação de fonte do Google Fonts para um visual mais limpo */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Estilos gerais do corpo da página */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilização do cabeçalho */
+.header {
+    background: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+    border-bottom: 5px solid #ff4500; /* Cor de destaque */
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+/* Container principal para centralizar o conteúdo */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+/* Estilização da seção de destaques */
+.destaques {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.destaques h2 {
+    text-align: center;
+    color: #1a1a1a;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #ff4500;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Estilização dos cards de carro */
+.card {
+    background: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #ff4500;
+    font-size: 1.5rem;
+}
+
+/* Estilização do rodapé */
+.footer {
+    background: #1a1a1a;
+    color: #ddd;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
